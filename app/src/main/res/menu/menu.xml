@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/record"
+            android:title="拓荒紀錄"
+            android:icon="@drawable/baseline_history_black_48dp"
+            />
+        <item
+            android:id="@+id/killWay"
+            android:title="打怪模式"
+            android:icon="@drawable/fight_icon"/>
+        <item
+            android:id="@+id/action_setting"
+            android:title="設定"
+            android:icon="@drawable/baseline_settings_black_48dp"/>
+
+    </group>
+
+
+
+</menu>

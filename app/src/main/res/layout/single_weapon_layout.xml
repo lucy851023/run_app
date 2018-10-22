@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/single_weapon_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/baton"
+
+        />
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="x"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/single_weapon_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"/>
+
+</LinearLayout>

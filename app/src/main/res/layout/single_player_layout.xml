@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/imageviewboundshape"
+    android:layout_gravity="center"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/player_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/male_img" />
+
+    <TextView
+        android:id="@+id/tv_player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="玩家"
+        android:textSize="24sp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ready_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        android:src="@drawable/ready_yes_full"/>
+
+
+</LinearLayout>

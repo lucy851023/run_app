@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_logo"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="奔 跑 啟 示 錄"
+        android:textSize="48sp"
+        android:textColor="#FFD740"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/bt_signInEmail"/>
+
+    <Button
+        android:id="@+id/bt_signInEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sign in with email"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/googleBtn"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/googleBtn">
+
+    </com.google.android.gms.common.SignInButton>
+
+
+
+
+</RelativeLayout>
